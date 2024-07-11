@@ -1,0 +1,329 @@
+06.07.2024 14:47:56 / info : ::1 - - [06/Jul/2024:11:47:56 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:48:23 / info : ::1 - - [06/Jul/2024:11:48:23 +0000] "GET /api/v1/test/test1 HTTP/1.1" 404 156 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:49:19 / info : ::1 - - [06/Jul/2024:11:49:19 +0000] "GET /api/v1/test/test1 HTTP/1.1" 404 156 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:49:30 / info : ::1 - - [06/Jul/2024:11:49:30 +0000] "GET /api/v1/test/test1 HTTP/1.1" 404 156 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:49:45 / info : ::1 - - [06/Jul/2024:11:49:45 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 404 157 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:50:35 / info : ::1 - - [06/Jul/2024:11:50:35 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 404 157 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:51:57 / info : ::1 - - [06/Jul/2024:11:51:57 +0000] "GET /x/ HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:52:06 / info : ::1 - - [06/Jul/2024:11:52:06 +0000] "GET /x/ HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:52:16 / info : ::1 - - [06/Jul/2024:11:52:16 +0000] "GET /x/ HTTP/1.1" 200 12 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:52:21 / info : ::1 - - [06/Jul/2024:11:52:21 +0000] "GET /x HTTP/1.1" 200 12 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:52:32 / info : ::1 - - [06/Jul/2024:11:52:32 +0000] "GET /x HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:52:32 / info : ::1 - - [06/Jul/2024:11:52:32 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:53:33 / info : ::1 - - [06/Jul/2024:11:53:33 +0000] "GET /x HTTP/1.1" 404 140 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:53:51 / info : ::1 - - [06/Jul/2024:11:53:51 +0000] "GET /api/test/test1 HTTP/1.1" 404 153 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:54:28 / info : ::1 - - [06/Jul/2024:11:54:28 +0000] "GET /api/v1/test/test1 HTTP/1.1" 200 14 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+06.07.2024 14:54:51 / info : ::1 - - [06/Jul/2024:11:54:51 +0000] "GET /api/v1/test/test1 HTTP/1.1" 200 19 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 15:05:19 / info : ::1 - - [07/Jul/2024:12:05:19 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 200 19 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 15:05:19 / info : ::1 - - [07/Jul/2024:12:05:19 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 15:20:21 / info : ::1 - - [07/Jul/2024:12:20:21 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 15:20:21 / info : ::1 - - [07/Jul/2024:12:20:21 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 15:21:20 / info : ::1 - - [07/Jul/2024:12:21:20 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 15:21:20 / info : ::1 - - [07/Jul/2024:12:21:20 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 15:43:14 / info : ::1 - - [07/Jul/2024:12:43:14 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 15:43:14 / info : ::1 - - [07/Jul/2024:12:43:14 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:02:09 / info : ::1 - - [07/Jul/2024:13:02:09 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:02:09 / info : ::1 - - [07/Jul/2024:13:02:09 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:03:15 / info : ::1 - - [07/Jul/2024:13:03:15 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:03:15 / info : ::1 - - [07/Jul/2024:13:03:15 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:08:53 / info : ::1 - - [07/Jul/2024:13:08:53 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:08:53 / info : ::1 - - [07/Jul/2024:13:08:53 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:08:57 / info : ::1 - - [07/Jul/2024:13:08:57 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:08:57 / info : ::1 - - [07/Jul/2024:13:08:57 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:09:06 / info : ::1 - - [07/Jul/2024:13:09:06 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:09:06 / info : ::1 - - [07/Jul/2024:13:09:06 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:33:32 / info : ::1 - - [07/Jul/2024:13:33:32 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:33:32 / info : ::1 - - [07/Jul/2024:13:33:32 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:36:04 / info : ::1 - - [07/Jul/2024:13:36:04 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:36:04 / info : ::1 - - [07/Jul/2024:13:36:04 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:36:11 / info : ::1 - - [07/Jul/2024:13:36:11 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:36:11 / info : ::1 - - [07/Jul/2024:13:36:11 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:36:12 / info : ::1 - - [07/Jul/2024:13:36:12 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:36:12 / info : ::1 - - [07/Jul/2024:13:36:12 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:38:41 / info : ::1 - - [07/Jul/2024:13:38:41 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:38:41 / info : ::1 - - [07/Jul/2024:13:38:41 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:39:24 / info : ::1 - - [07/Jul/2024:13:39:24 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:39:24 / info : ::1 - - [07/Jul/2024:13:39:24 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:39:40 / info : ::1 - - [07/Jul/2024:13:39:40 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:39:40 / info : ::1 - - [07/Jul/2024:13:39:40 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:39:48 / info : ::1 - - [07/Jul/2024:13:39:48 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+07.07.2024 16:39:48 / info : ::1 - - [07/Jul/2024:13:39:48 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 20:11:17 / info : ::1 - - [08/Jul/2024:17:11:17 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 404 161 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 20:59:09 / info : ::1 - - [08/Jul/2024:17:59:09 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 404 161 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 21:00:32 / info : ::1 - - [08/Jul/2024:18:00:32 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 474 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 21:01:51 / info : ::1 - - [08/Jul/2024:18:01:51 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 474 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 21:06:43 / info : ::1 - - [08/Jul/2024:18:06:43 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 474 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 21:07:41 / info : ::1 - - [08/Jul/2024:18:07:41 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 474 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 21:11:58 / info : ::1 - - [08/Jul/2024:18:11:58 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 485 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 21:41:02 / info : ::1 - - [08/Jul/2024:18:41:02 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 485 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:03:20 / info : ::1 - - [08/Jul/2024:19:03:20 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 485 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:12:53 / info : ::1 - - [08/Jul/2024:19:12:53 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 485 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:13:06 / error : status: 400: пользователь с таким email уже существует
+08.07.2024 22:13:06 / info : ::1 - - [08/Jul/2024:19:13:06 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 146 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:15:18 / error : status: 400: пользователь с таким email уже существует
+08.07.2024 22:15:18 / info : ::1 - - [08/Jul/2024:19:15:18 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 146 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:16:32 / info : ::1 - - [08/Jul/2024:19:16:32 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 485 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:17:19 / info : ::1 - - [08/Jul/2024:19:17:19 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 485 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:18:40 / info : ::1 - - [08/Jul/2024:19:18:40 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 485 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:22:10 / info : ::1 - - [08/Jul/2024:19:22:10 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 485 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:23:08 / info : ::1 - - [08/Jul/2024:19:23:08 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 485 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:24:20 / info : ::1 - - [08/Jul/2024:19:24:20 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 485 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:25:06 / info : ::1 - - [08/Jul/2024:19:25:06 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 485 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:31:50 / error : status: 400: минимум 5 символов
+08.07.2024 22:31:50 / info : ::1 - - [08/Jul/2024:19:31:50 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 189 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:38:46 / error : status: 400: Ошибка запроса
+08.07.2024 22:38:46 / info : ::1 - - [08/Jul/2024:19:38:46 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 119 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:40:37 / error : status: 400: Ошибка запроса
+08.07.2024 22:40:37 / info : ::1 - - [08/Jul/2024:19:40:37 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 137 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:41:01 / error : status: 400: Ошибка запроса
+08.07.2024 22:41:02 / info : ::1 - - [08/Jul/2024:19:41:02 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 200 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:43:01 / error : status: 400: Ошибка запроса
+08.07.2024 22:43:01 / info : ::1 - - [08/Jul/2024:19:43:01 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 200 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:44:00 / error : status: 400: Ошибка запроса
+08.07.2024 22:44:00 / info : ::1 - - [08/Jul/2024:19:44:00 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 106 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+08.07.2024 22:44:09 / error : status: 400: Ошибка запроса
+08.07.2024 22:44:09 / info : ::1 - - [08/Jul/2024:19:44:09 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 106 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 21:08:14 / error : status: 400: Ошибка запроса
+09.07.2024 21:08:14 / info : ::1 - - [09/Jul/2024:18:08:14 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 106 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 21:09:31 / info : ::1 - - [09/Jul/2024:18:09:31 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 485 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 21:12:10 / error : MongoDB connection error: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+09.07.2024 21:12:47 / error : MongoDB connection error: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+09.07.2024 21:14:31 / info : MongoDB connected
+09.07.2024 21:23:33 / info : MongoDB connected
+09.07.2024 21:28:43 / info : MongoDB connected
+09.07.2024 21:31:04 / info : MongoDB connected
+09.07.2024 21:31:49 / info : MongoDB connected
+09.07.2024 21:32:01 / info : MongoDB connected
+09.07.2024 21:32:25 / info : MongoDB connected
+09.07.2024 21:32:38 / info : MongoDB connected
+09.07.2024 21:33:00 / info : MongoDB connected
+09.07.2024 21:33:07 / info : MongoDB connected
+09.07.2024 22:19:40 / info : MongoDB connected
+09.07.2024 22:20:32 / info : MongoDB connected
+09.07.2024 22:21:28 / info : ::1 - - [09/Jul/2024:19:21:28 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 1208 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 22:31:30 / info : MongoDB connected
+09.07.2024 22:31:48 / error : status: 400: пользователь с таким email уже существует
+09.07.2024 22:31:48 / info : ::1 - - [09/Jul/2024:19:31:48 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 146 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 22:32:16 / info : ::1 - - [09/Jul/2024:19:32:16 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 1212 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 22:37:19 / info : MongoDB connected
+09.07.2024 22:37:42 / error : status: 400: пользователь с таким email уже существует
+09.07.2024 22:37:42 / info : ::1 - - [09/Jul/2024:19:37:42 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 146 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 22:38:01 / info : ::1 - - [09/Jul/2024:19:38:01 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 660 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 23:03:20 / info : MongoDB connected
+09.07.2024 23:03:47 / error : status: 400: пользователь с таким email уже существует
+09.07.2024 23:03:47 / info : ::1 - - [09/Jul/2024:20:03:47 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 146 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 23:04:11 / info : ::1 - - [09/Jul/2024:20:04:11 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 577 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 23:05:09 / info : MongoDB connected
+09.07.2024 23:05:19 / info : MongoDB connected
+09.07.2024 23:06:15 / info : MongoDB connected
+09.07.2024 23:09:14 / info : MongoDB connected
+09.07.2024 23:10:02 / info : MongoDB connected
+09.07.2024 23:10:15 / info : MongoDB connected
+09.07.2024 23:10:56 / error : status: 500: E11000 duplicate key error collection: movie_quest.users index: name_1 dup key: { name: "test@gmail.com" }
+09.07.2024 23:10:56 / info : ::1 - - [09/Jul/2024:20:10:56 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 500 307 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 23:11:51 / error : status: 500: E11000 duplicate key error collection: movie_quest.users index: name_1 dup key: { name: "test@gmail.com" }
+09.07.2024 23:11:51 / info : ::1 - - [09/Jul/2024:20:11:51 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 500 307 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 23:12:06 / error : status: 500: E11000 duplicate key error collection: movie_quest.users index: name_1 dup key: { name: "test@gmail.com" }
+09.07.2024 23:12:06 / info : ::1 - - [09/Jul/2024:20:12:06 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 500 307 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 23:13:00 / info : ::1 - - [09/Jul/2024:20:13:00 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 201 577 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 23:25:48 / info : MongoDB connected
+09.07.2024 23:27:29 / error : status: 400: Ошибка запроса
+09.07.2024 23:27:29 / info : ::1 - - [09/Jul/2024:20:27:29 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 104 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 23:27:39 / error : status: 500: E11000 duplicate key error collection: movie_quest.users index: name_1 dup key: { name: "test@gmail.com" }
+09.07.2024 23:27:39 / info : ::1 - - [09/Jul/2024:20:27:39 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 500 307 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 23:27:47 / info : MongoDB connected
+09.07.2024 23:27:49 / error : status: 400: пользователь с таким именем уже существует
+09.07.2024 23:27:49 / info : ::1 - - [09/Jul/2024:20:27:49 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 152 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+09.07.2024 23:29:23 / info : MongoDB connected
+09.07.2024 23:29:28 / info : MongoDB connected
+09.07.2024 23:35:12 / info : MongoDB connected
+09.07.2024 23:39:00 / info : MongoDB connected
+09.07.2024 23:41:06 / info : MongoDB connected
+09.07.2024 23:41:42 / info : MongoDB connected
+09.07.2024 23:41:57 / info : MongoDB connected
+09.07.2024 23:42:11 / info : MongoDB connected
+09.07.2024 23:42:24 / info : MongoDB connected
+10.07.2024 00:00:43 / info : MongoDB connected
+10.07.2024 10:36:33 / info : MongoDB connected
+10.07.2024 10:42:02 / info : MongoDB connected
+10.07.2024 10:42:08 / info : MongoDB connected
+10.07.2024 10:42:24 / info : MongoDB connected
+10.07.2024 10:42:37 / info : MongoDB connected
+10.07.2024 10:43:06 / error : status: 400: пользователь с таким email уже существует
+10.07.2024 10:43:06 / info : ::1 - - [10/Jul/2024:07:43:06 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 146 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 10:48:46 / error : status: 400: пользователь с таким email уже существует
+10.07.2024 10:48:46 / info : ::1 - - [10/Jul/2024:07:48:46 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 146 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 10:49:07 / error : status: 400: пользователь с таким email уже существует
+10.07.2024 10:49:07 / info : ::1 - - [10/Jul/2024:07:49:07 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 146 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 11:11:21 / info : ::1 - - [10/Jul/2024:08:11:21 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 573 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 11:12:16 / info : MongoDB connected
+10.07.2024 11:12:21 / error : status: 400: Ошибка запроса
+10.07.2024 11:12:21 / info : ::1 - - [10/Jul/2024:08:12:21 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 400 111 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 11:14:56 / info : MongoDB connected
+10.07.2024 11:14:57 / info : ::1 - - [10/Jul/2024:08:14:57 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 573 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 11:48:05 / info : MongoDB connected
+10.07.2024 11:48:40 / info : MongoDB connected
+10.07.2024 11:49:25 / info : MongoDB connected
+10.07.2024 11:51:06 / info : MongoDB connected
+10.07.2024 11:52:47 / info : MongoDB connected
+10.07.2024 11:54:48 / info : MongoDB connected
+10.07.2024 11:55:25 / info : MongoDB connected
+10.07.2024 11:55:31 / info : MongoDB connected
+10.07.2024 11:55:41 / info : MongoDB connected
+10.07.2024 11:55:55 / info : ::1 - - [10/Jul/2024:08:55:55 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 573 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 12:37:07 / info : MongoDB connected
+10.07.2024 12:39:40 / info : MongoDB connected
+10.07.2024 12:41:08 / info : MongoDB connected
+10.07.2024 12:41:20 / info : MongoDB connected
+10.07.2024 12:44:26 / info : MongoDB connected
+10.07.2024 12:52:08 / info : MongoDB connected
+10.07.2024 16:54:31 / info : MongoDB connected
+10.07.2024 16:58:47 / info : MongoDB connected
+10.07.2024 16:59:32 / info : MongoDB connected
+10.07.2024 17:37:52 / error : status: 500: Illegal arguments: undefined, string
+10.07.2024 17:37:52 / info : ::1 - - [10/Jul/2024:14:37:52 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:37:52 / error : status: 500: Illegal arguments: undefined, string
+10.07.2024 17:37:52 / info : ::1 - - [10/Jul/2024:14:37:52 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:38:38 / error : status: 500: Illegal arguments: undefined, string
+10.07.2024 17:38:38 / info : ::1 - - [10/Jul/2024:14:38:38 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:38:38 / error : status: 500: Illegal arguments: undefined, string
+10.07.2024 17:38:38 / info : ::1 - - [10/Jul/2024:14:38:38 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:38:50 / error : status: 500: Illegal arguments: undefined, string
+10.07.2024 17:38:50 / info : ::1 - - [10/Jul/2024:14:38:50 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:38:51 / error : status: 500: Illegal arguments: undefined, string
+10.07.2024 17:38:51 / info : ::1 - - [10/Jul/2024:14:38:51 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:39:22 / error : status: 500: Illegal arguments: undefined, string
+10.07.2024 17:39:22 / info : ::1 - - [10/Jul/2024:14:39:22 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:39:22 / error : status: 500: Illegal arguments: undefined, string
+10.07.2024 17:39:22 / info : ::1 - - [10/Jul/2024:14:39:22 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:40:27 / error : status: 500: Illegal arguments: undefined, string
+10.07.2024 17:40:27 / info : ::1 - - [10/Jul/2024:14:40:27 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:40:27 / error : status: 500: Illegal arguments: undefined, string
+10.07.2024 17:40:27 / info : ::1 - - [10/Jul/2024:14:40:27 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:40:44 / error : status: 500: Illegal arguments: undefined, string
+10.07.2024 17:40:44 / info : ::1 - - [10/Jul/2024:14:40:44 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:40:44 / error : status: 500: Illegal arguments: undefined, string
+10.07.2024 17:40:44 / info : ::1 - - [10/Jul/2024:14:40:44 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:42:54 / info : ::1 - - [10/Jul/2024:14:42:54 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:42:54 / info : ::1 - - [10/Jul/2024:14:42:54 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:43:50 / info : ::1 - - [10/Jul/2024:14:43:50 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:45:42 / info : ::1 - - [10/Jul/2024:14:45:42 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 17:46:53 / info : ::1 - - [10/Jul/2024:14:46:53 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 18:10:33 / info : ::1 - - [10/Jul/2024:15:10:33 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 18:18:51 / info : ::1 - - [10/Jul/2024:15:18:51 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 18:18:59 / info : ::1 - - [10/Jul/2024:15:18:59 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 18:18:59 / info : ::1 - - [10/Jul/2024:15:18:59 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 18:23:00 / info : ::1 - - [10/Jul/2024:15:23:00 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 18:23:49 / info : ::1 - - [10/Jul/2024:15:23:49 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 18:24:11 / info : ::1 - - [10/Jul/2024:15:24:11 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+10.07.2024 18:25:09 / info : ::1 - - [10/Jul/2024:15:25:09 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:47:49 / info : MongoDB connected
+11.07.2024 22:49:32 / info : ::1 - - [11/Jul/2024:19:49:32 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:49:32 / info : ::1 - - [11/Jul/2024:19:49:32 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:50:19 / info : ::1 - - [11/Jul/2024:19:50:19 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:50:19 / info : ::1 - - [11/Jul/2024:19:50:19 +0000] "GET /api/v1/test/test1/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:52:25 / info : ::1 - - [11/Jul/2024:19:52:25 +0000] "GET /api/v1/test/public/ HTTP/1.1" 200 20 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:54:24 / info : ::1 - - [11/Jul/2024:19:54:24 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:54:32 / info : ::1 - - [11/Jul/2024:19:54:32 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:54:32 / info : ::1 - - [11/Jul/2024:19:54:32 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:54:32 / info : ::1 - - [11/Jul/2024:19:54:32 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:54:32 / info : ::1 - - [11/Jul/2024:19:54:32 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:54:37 / info : ::1 - - [11/Jul/2024:19:54:37 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:54:37 / info : ::1 - - [11/Jul/2024:19:54:37 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:54:37 / info : ::1 - - [11/Jul/2024:19:54:37 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:54:37 / info : ::1 - - [11/Jul/2024:19:54:37 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:55:01 / info : ::1 - - [11/Jul/2024:19:55:01 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:55:01 / info : ::1 - - [11/Jul/2024:19:55:01 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:55:01 / info : ::1 - - [11/Jul/2024:19:55:01 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:55:01 / info : ::1 - - [11/Jul/2024:19:55:01 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:55:08 / info : ::1 - - [11/Jul/2024:19:55:08 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:55:16 / info : ::1 - - [11/Jul/2024:19:55:16 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:55:16 / info : ::1 - - [11/Jul/2024:19:55:16 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 200 23 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:55:16 / info : ::1 - - [11/Jul/2024:19:55:16 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:55:16 / info : ::1 - - [11/Jul/2024:19:55:16 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:30 / info : ::1 - - [11/Jul/2024:19:57:30 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:30 / info : ::1 - - [11/Jul/2024:19:57:30 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:46 / info : ::1 - - [11/Jul/2024:19:57:46 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:46 / info : ::1 - - [11/Jul/2024:19:57:46 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:46 / info : ::1 - - [11/Jul/2024:19:57:46 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:46 / info : ::1 - - [11/Jul/2024:19:57:46 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:46 / info : ::1 - - [11/Jul/2024:19:57:46 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:46 / info : ::1 - - [11/Jul/2024:19:57:46 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:51 / info : ::1 - - [11/Jul/2024:19:57:51 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:51 / info : ::1 - - [11/Jul/2024:19:57:51 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:51 / info : ::1 - - [11/Jul/2024:19:57:51 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:51 / info : ::1 - - [11/Jul/2024:19:57:51 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:51 / info : ::1 - - [11/Jul/2024:19:57:51 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:57:51 / info : ::1 - - [11/Jul/2024:19:57:51 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:58:17 / info : ::1 - - [11/Jul/2024:19:58:17 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:58:17 / info : ::1 - - [11/Jul/2024:19:58:17 +0000] "GET /api/v1/test/admin/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:58:17 / info : ::1 - - [11/Jul/2024:19:58:17 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:58:26 / info : ::1 - - [11/Jul/2024:19:58:26 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:58:26 / info : ::1 - - [11/Jul/2024:19:58:26 +0000] "GET /api/v1/test/admin/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:58:26 / info : ::1 - - [11/Jul/2024:19:58:26 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:58:26 / info : ::1 - - [11/Jul/2024:19:58:26 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:58:26 / info : ::1 - - [11/Jul/2024:19:58:26 +0000] "GET /api/v1/test/admin/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 22:58:26 / info : ::1 - - [11/Jul/2024:19:58:26 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:00:55 / info : MongoDB connected
+11.07.2024 23:09:14 / info : ::1 - - [11/Jul/2024:20:09:14 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:09:14 / info : ::1 - - [11/Jul/2024:20:09:14 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:09:14 / info : ::1 - - [11/Jul/2024:20:09:14 +0000] "GET /api/v1/test/admin/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:09:14 / info : ::1 - - [11/Jul/2024:20:09:14 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:09:14 / info : ::1 - - [11/Jul/2024:20:09:14 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:09:14 / info : ::1 - - [11/Jul/2024:20:09:14 +0000] "GET /api/v1/test/admin/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:20:18 / info : ::1 - - [11/Jul/2024:20:20:18 +0000] "GET /api/v1/test/admin/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:20:18 / info : ::1 - - [11/Jul/2024:20:20:18 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:20:18 / info : ::1 - - [11/Jul/2024:20:20:18 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:20:18 / info : ::1 - - [11/Jul/2024:20:20:18 +0000] "GET /api/v1/test/admin/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:20:18 / info : ::1 - - [11/Jul/2024:20:20:18 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:20:18 / info : ::1 - - [11/Jul/2024:20:20:18 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:25:24 / info : ::1 - - [11/Jul/2024:20:25:24 +0000] "GET /api/v1/test/public/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:25:24 / info : ::1 - - [11/Jul/2024:20:25:24 +0000] "GET /api/v1/test/protected/ HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:25:24 / info : ::1 - - [11/Jul/2024:20:25:24 +0000] "GET /api/v1/test/admin/ HTTP/1.1" 403 9 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+11.07.2024 23:41:15 / info : MongoDB connected
+12.07.2024 11:23:45 / info : MongoDB connected
+12.07.2024 11:44:25 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:44:25 / info : ::1 - - [12/Jul/2024:08:44:25 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:44:25 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:44:25 / info : ::1 - - [12/Jul/2024:08:44:25 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:44:25 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:44:25 / info : ::1 - - [12/Jul/2024:08:44:25 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:44:25 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:44:25 / info : ::1 - - [12/Jul/2024:08:44:25 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:45:38 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:45:38 / info : ::1 - - [12/Jul/2024:08:45:38 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:45:38 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:45:38 / info : ::1 - - [12/Jul/2024:08:45:38 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:45:54 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:45:54 / info : ::1 - - [12/Jul/2024:08:45:54 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:45:54 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:45:54 / info : ::1 - - [12/Jul/2024:08:45:54 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:46:12 / info : ::1 - - [12/Jul/2024:08:46:12 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:46:18 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:46:18 / info : ::1 - - [12/Jul/2024:08:46:18 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:46:18 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:46:18 / info : ::1 - - [12/Jul/2024:08:46:18 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:47:20 / info : MongoDB connected
+12.07.2024 11:47:23 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:47:23 / info : ::1 - - [12/Jul/2024:08:47:23 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:47:23 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:47:23 / info : ::1 - - [12/Jul/2024:08:47:23 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:47:39 / info : MongoDB connected
+12.07.2024 11:47:42 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:47:42 / info : ::1 - - [12/Jul/2024:08:47:42 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:47:42 / error : status: 500: Illegal arguments: undefined, string
+12.07.2024 11:47:42 / info : ::1 - - [12/Jul/2024:08:47:42 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:50:15 / info : MongoDB connected
+12.07.2024 11:50:20 / error : status: 500: Cannot read properties of undefined (reading 'id')
+12.07.2024 11:50:20 / info : ::1 - - [12/Jul/2024:08:50:20 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:50:20 / error : status: 500: Cannot read properties of undefined (reading 'id')
+12.07.2024 11:50:20 / info : ::1 - - [12/Jul/2024:08:50:20 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:51:13 / info : MongoDB connected
+12.07.2024 11:51:15 / error : status: 500: Cannot read properties of undefined (reading 'id')
+12.07.2024 11:51:15 / info : ::1 - - [12/Jul/2024:08:51:15 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:51:15 / error : status: 500: Cannot read properties of undefined (reading 'id')
+12.07.2024 11:51:15 / info : ::1 - - [12/Jul/2024:08:51:15 +0000] "GET /api/v1/auth/ HTTP/1.1" 500 2 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:52:14 / info : MongoDB connected
+12.07.2024 11:52:17 / info : ::1 - - [12/Jul/2024:08:52:17 +0000] "GET /api/v1/auth/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:52:17 / info : ::1 - - [12/Jul/2024:08:52:17 +0000] "GET /api/v1/auth/ HTTP/1.1" 201 586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+12.07.2024 11:52:42 / info : MongoDB connected
