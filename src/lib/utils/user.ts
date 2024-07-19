@@ -1,4 +1,4 @@
-import { UserDTO, UserTokens } from "../../../types/user";
+import { UserDTO, UserTokens } from "../../types/user";
 import { UserType, UserTypeWithId } from "../../models/user";
 import { getToken } from "../tokens/tokens";
 

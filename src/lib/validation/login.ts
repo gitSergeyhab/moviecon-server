@@ -1,5 +1,5 @@
 import Joi from "joi";
-import { UserLoginData } from "../../../types/user";
+import { UserLoginData } from "../../types/user";
 import { authConstants } from "./authConstants";
 
 export const loginSchema = Joi.object<UserLoginData>({

@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import { UserRole } from "../../../types/user";
+import { UserRole } from "../../types/user";
 import { ENV } from "../../constants";
 
 const accessTime = "10h";

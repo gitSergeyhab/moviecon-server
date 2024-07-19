@@ -1,4 +1,4 @@
-import { FullUserInfo, UserInfo } from "../../types/user";
+import { FullUserInfo, UserInfo } from "../types/user";
 
 const users = new Map<string, FullUserInfo>();
 

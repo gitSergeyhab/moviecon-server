@@ -1,5 +1,5 @@
 import mongoose, { Document, Schema } from "mongoose";
-import { FullUserInfo } from "../../types/user";
+import { FullUserInfo } from "../types/user";
 
 export interface UserType extends FullUserInfo, Document {
   createdAt: Date;
@@ -27,4 +27,4 @@ const UserSchema: Schema = new Schema<UserType>(
   { timestamps: true }
 );
 
-export const User = mongoose.model<UserType>("User", UserSchema);
+export const UserModel = mongoose.model<UserType>("User", UserSchema);

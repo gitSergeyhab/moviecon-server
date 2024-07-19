@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { UserRole } from "../../../types/user";
+import { UserRole } from "../../types/user";
 
 export const authorizeRoles = (...roles: UserRole[]) => {
   return (req: Request, res: Response, next: NextFunction) => {

@@ -1,5 +1,5 @@
 import Joi from "joi";
-import { UserRegisterData } from "../../../types/user";
+import { UserRegisterData } from "../../types/user";
 import { authConstants } from "./authConstants";
 
 export const registerSchema = Joi.object<UserRegisterData>({

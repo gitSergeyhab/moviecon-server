@@ -1,10 +1,10 @@
 import { NextFunction, Request, Response } from "express";
-import { UserLoginData, UserRegisterData } from "../../types/user";
+import { UserLoginData, UserRegisterData } from "../types/user";
 import { HttpError } from "../lib/utils/error";
-import { UserService } from "../db/externalDbServices/userService";
+import { UserService } from "../services/externalDbServices/userService";
 import { getUserWithTokens } from "../lib/utils/user";
 import { Crypt } from "../lib/utils/crypt";
-import { AppRequest } from "../../types/api";
+import { AppRequest } from "../types/api";
 
 class AuthController {
   async registration(req: Request, res: Response, next: NextFunction) {
@@ -78,8 +78,6 @@ class AuthController {
 
   async getUser(req: AppRequest, res: Response, next: NextFunction) {
     try {
-      console.log(req.user, "getUser________________________________!");
-
       const userId = req.user.id;
 
       if (!userId) {
@@ -87,7 +85,7 @@ class AuthController {
       }
       const user = await UserService.findById(userId);
       const response = getUserWithTokens(user);
-      res.status(201).json(response);
+      res.status(200).json(response);
     } catch (err) {
       next(err);
     }
