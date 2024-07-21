@@ -7,3 +7,5 @@ export interface AppRequest extends Request {
     role: UserRole;
   };
 }
+
+export type Sort = 1 | -1;

@@ -1,6 +1,8 @@
-import { RegionCategory, TestType } from "../types/test";
+import { Category, TestType } from "../types/test";
 
-export const TEST_CATEGORIES: RegionCategory[] = ["rus", "ussr", "world"];
+export const TEST_CATEGORIES: Category[] = ["rus", "ussr", "world"];
+
+export const TEST_CATEGORIES_WITH_ALL: Category[] = ["all", ...TEST_CATEGORIES];
 
 export const TEST_TYPES: TestType[] = [
   "FrameByMovie",

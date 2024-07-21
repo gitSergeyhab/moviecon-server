@@ -1,6 +1,8 @@
 import { GameStatus, Level } from "../../types/game";
+import { GameResult, GameResultStatus } from "../../types/gameResult";
 import { scoreBonusRatio as ratio } from "./settings";
 
+export type GameInfo = Omit<GameResult, "score" | "status">;
 interface LevelResult {
   answersScore: number;
   errorBonus: number;
@@ -10,6 +12,7 @@ interface LevelResult {
 }
 
 export class Game {
+  private info: GameInfo;
   private userId: string;
   private levels: Level[];
   private currentLevelIndex: number = 0;
@@ -19,11 +22,11 @@ export class Game {
   private answers: number = 0;
   private timeSpent: number = 0;
   private totalScore: number = 0;
-  private levelScores: number[] = [];
   private startTime: number = 0;
   private levelsStory: LevelResult[] = [];
 
-  constructor(levels: Level[], userId: string) {
+  constructor(levels: Level[], userId: string, info: GameInfo) {
+    this.info = info;
     this.levels = levels;
     this.resetLevel();
     this.userId = userId;
@@ -105,6 +108,16 @@ export class Game {
     this.addResultToStory(levelResult);
     this.totalScore += levelResult.levelScore;
   }
+  getGameResult(): GameResult {
+    const info = this.info;
+    const score = this.getScore();
+    const status = this.getStatus() as GameResultStatus;
+    return {
+      ...info,
+      score,
+      status,
+    };
+  }
 
   calculateResultGameData(): LevelResult {
     const currentLevel = this.levels[this.currentLevelIndex];
@@ -153,6 +166,12 @@ export class Game {
   }
   getStatus(): GameStatus {
     return this.status;
+  }
+
+  getIsGameOver(): boolean {
+    return (
+      this.status === "ENDED" || this.status === "LOST" || this.status === "WON"
+    );
   }
 
   getUserId(): string {

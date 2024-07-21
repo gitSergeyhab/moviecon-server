@@ -1,3 +1,5 @@
+import { Category } from "./test";
+
 export interface Level {
   number: number;
   time: number; // ms
@@ -15,3 +17,4 @@ export type GameStatus =
   | "INFO_PAUSE";
 
 export type GameDuration = "QUICK" | "COMMON" | "LONG";
+export type GameType = "SINGLE" | "MULTI";

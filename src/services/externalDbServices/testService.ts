@@ -1,4 +1,4 @@
-import { ITestFromDB, RegionCategory, TestDTO } from "../../types/test";
+import { ITestFromDB, Category, TestDTO } from "../../types/test";
 import { TEST_CATEGORIES } from "../../const/test";
 import { HttpError } from "../../lib/utils/error";
 import { TestModel } from "../../models/test";
@@ -34,14 +34,14 @@ export class TestService {
     return levelTests;
   }
 
-  static async getTestByLevels(levels: Level[], category: RegionCategory) {
+  static async getTestByLevels(levels: Level[], category: Category) {
     const count = levels.reduce((acc, el) => acc + el.questions, 0);
     const tests = await TestService.readRandomTests(category, count);
     const levelTests = TestService.getTestLevels(levels, tests);
     return levelTests;
   }
 
-  static async readRandomTests(category: RegionCategory, count: number) {
+  static async readRandomTests(category: Category, count: number) {
     if (![...TEST_CATEGORIES, "all"].includes(category)) {
       throw new HttpError(400, "Некорректная категория", [
         { message: "Некорректная категория", name: "category" },

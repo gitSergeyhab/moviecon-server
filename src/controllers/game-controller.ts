@@ -2,21 +2,38 @@ import { NextFunction, Response } from "express";
 import { AppRequest } from "../types/api";
 import { GameService } from "../services/localDbServices/gameService";
 import { TestService } from "../services/externalDbServices/testService";
-import { RegionCategory } from "../types/test";
+import { Category } from "../types/test";
 import { gameLevels } from "../lib/gameCore/settings";
 import { GameDuration, GameStatus } from "../types/game";
 import { ErrorService } from "../services/errorService";
+import { GameResultService } from "../services/externalDbServices/gameResultService";
+import { GameInfo } from "../lib/gameCore/game";
+import { UserService } from "../services/externalDbServices/userService";
 
 class GameController {
   async startGame(req: AppRequest, res: Response, next: NextFunction) {
     try {
       const userId = req.user.id;
       const duration = req.body.duration as GameDuration;
-      const category = req.body.category as RegionCategory;
+      const category = req.body.category as Category;
+      const user = await UserService.findById(userId);
+
+      const gameInfo: GameInfo = {
+        userId,
+        userName: user.name,
+        duration,
+        category,
+        type: "SINGLE",
+      };
 
       const levels = gameLevels[duration];
       const tests = await TestService.getTestByLevels(levels, category);
-      const gameId = GameService.startSinglePlayerGames(userId, levels, tests);
+      const gameId = GameService.startSinglePlayerGames(
+        userId,
+        levels,
+        tests,
+        gameInfo
+      );
 
       res.status(201).json({ gameId });
     } catch (err) {
@@ -106,6 +123,11 @@ class GameController {
 
       game.skipQuestion();
 
+      const isGameOver = game.getIsGameOver();
+      if (isGameOver) {
+        GameResultService.create(game.getGameResult());
+      }
+
       res
         .status(200)
         .json({ gameStatus: game.getStatus(), answerStatus: "skipped" });
@@ -152,6 +174,11 @@ class GameController {
       const isAnswerCorrect = answerId === variantId;
       game.answerQuestion(isAnswerCorrect);
 
+      const isGameOver = game.getIsGameOver();
+      if (isGameOver) {
+        GameResultService.create(game.getGameResult());
+      }
+
       res.status(200).json({
         gameStatus: game.getStatus(),
         answerStatus: isAnswerCorrect ? "correct" : "wrong",
@@ -178,7 +205,7 @@ class GameController {
       }
 
       game.endGame();
-
+      GameResultService.create(game.getGameResult());
       res.status(200).json({ gameStatus: game.getStatus() });
     } catch (err) {
       next(err);

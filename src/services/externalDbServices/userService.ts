@@ -8,9 +8,11 @@ export class UserService {
     const createdUser = await UserModel.create(userData);
     return createdUser.toObject();
   }
+
   static async findByEmail(email: string): Promise<UserTypeWithId> {
     return await UserModel.findOne({ email });
   }
+
   static async findById(id: string): Promise<UserTypeWithId> {
     return await UserModel.findById(id);
   }

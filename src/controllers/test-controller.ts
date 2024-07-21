@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { TestService } from "../services/externalDbServices/testService";
-import { RegionCategory } from "../types/test";
+import { Category } from "../types/test";
 
 interface TestData {
   id: string;
@@ -20,7 +20,7 @@ class TestController {
   async getRandomTestList(req: Request, res: Response, next: NextFunction) {
     try {
       const { category, count } = req.query as {
-        category: RegionCategory;
+        category: Category;
         count: string;
       };
       const test = await TestService.readRandomTests(
