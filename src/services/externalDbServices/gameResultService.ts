@@ -28,6 +28,11 @@ interface FindUserResults {
   duration: GameDuration;
 }
 
+interface GetStoreList {
+  _id: Params;
+  scores: number[];
+}
+
 export class GameResultService {
   static async create(result: GameResult): Promise<GameResultType> {
     const cratedResult = await GameResultModel.create(result);
@@ -107,6 +112,30 @@ export class GameResultService {
         $project: {
           _id: 1,
           bestResult: { $slice: ["$bestResult", limit] },
+        },
+      },
+    ]);
+  }
+
+  static async getScoreList(): Promise<GetStoreList[]> {
+    return await GameResultModel.aggregate([
+      {
+        $sort: { score: 1 },
+      },
+      {
+        $group: {
+          _id: {
+            duration: "$duration",
+            type: "$type",
+            category: "$category",
+          },
+          scores: { $push: "$score" },
+        },
+      },
+      {
+        $project: {
+          _id: 1,
+          scores: 1,
         },
       },
     ]);

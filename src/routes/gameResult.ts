@@ -17,5 +17,6 @@ gameResultRouter.get(
 );
 
 gameResultRouter.get("/records/", gameResultController.getRecords);
+gameResultRouter.get("/scores/", gameResultController.getScoreLists);
 
 export { gameResultRouter };
