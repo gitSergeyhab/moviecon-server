@@ -51,17 +51,17 @@ class AuthController {
       const user = await UserService.findByEmail(email);
 
       if (!user) {
-        throw new HttpError(401, "пользователь с таким email не существует", [
+        throw new HttpError(400, "пользователь с таким email не существует", [
           {
             name: "email",
-            message: "пользователь с таким email уже существует",
+            message: "пользователь с таким email не существует",
           },
         ]);
       }
 
       const isPasswordValid = Crypt.compare(password, user.password);
       if (!isPasswordValid) {
-        throw new HttpError(401, "неверный пароль", [
+        throw new HttpError(400, "неверный пароль", [
           {
             name: "password",
             message: "неверный пароль",

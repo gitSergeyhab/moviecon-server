@@ -12,7 +12,7 @@ import { ENV } from "./constants";
 const app: Application = express();
 
 const corsOptions = {
-  origin: [ENV.ALLOWED_HOST],
+  origin: ENV.ALLOWED_HOST.split(","),
 };
 
 app.use(helmet());

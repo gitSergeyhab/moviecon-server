@@ -11,5 +11,5 @@ export const errorHandler = (
   const status = err.status || 500;
   const message = err.message || "Что-то пошло не так. Попробуйте позже";
   logger.error(`status: ${status}: ${message}`);
-  res.status(status).json(err);
+  res.status(status).json({ message, errors: err.errors, status });
 };
