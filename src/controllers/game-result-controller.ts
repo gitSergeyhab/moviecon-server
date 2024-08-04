@@ -54,7 +54,6 @@ class GameResultController {
         offset,
         sort,
       });
-      console.log(result);
       res
         .status(200)
         .json({ ...result, results: result.results.map(toGameResultDTO) });
@@ -66,7 +65,6 @@ class GameResultController {
   async getScoreLists(req: AppRequest, res: Response, next: NextFunction) {
     try {
       const result = await GameResultService.getScoreList();
-      console.log(result);
       res
         .status(200)
         .json(result.map(({ _id, scores }) => ({ params: _id, scores })));

@@ -1,6 +1,6 @@
 import { GameStatus, Level } from "../../types/game";
 import { GameResult, GameResultStatus } from "../../types/gameResult";
-import { scoreBonusRatio as ratio } from "./settings";
+import { scoreBonusRatio as ratio, SCORE_WON_RATIO } from "./settings";
 
 export type GameInfo = Omit<GameResult, "score" | "status">;
 interface LevelResult {
@@ -158,6 +158,7 @@ export class Game {
     this.status = "ENDED";
   }
   private wonGame() {
+    this.totalScore = Math.round(this.totalScore * SCORE_WON_RATIO);
     this.status = "WON";
   }
   private lostGame() {

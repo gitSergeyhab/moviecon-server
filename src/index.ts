@@ -34,5 +34,5 @@ app.use(errorHandler);
 dbConnect();
 
 app.listen(ENV.PORT, () => {
-  console.log(`Server running on http://localhost:${ENV.PORT}`);
+  logger.info(`Server running on http://localhost:${ENV.PORT}`);
 });

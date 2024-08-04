@@ -9,11 +9,11 @@ export const quickGameLevels: Level[] = [
 export const commonGameLevels: Level[] = [
   { errors: 1, skips: 1, number: 1, questions: 3, time: 20_000 },
   { errors: 2, skips: 1, number: 2, questions: 6, time: 40_000 },
-  // { errors: 2, skips: 1, number: 3, questions: 7, time: 45_000 },
-  // { errors: 2, skips: 1, number: 4, questions: 8, time: 50_000 },
-  // { errors: 2, skips: 1, number: 5, questions: 9, time: 55_000 },
-  // { errors: 1, skips: 1, number: 6, questions: 10, time: 60_000 },
-  // { errors: 1, skips: 0, number: 7, questions: 7, time: 45_000 },
+  { errors: 2, skips: 1, number: 3, questions: 7, time: 45_000 },
+  { errors: 2, skips: 1, number: 4, questions: 8, time: 50_000 },
+  { errors: 2, skips: 1, number: 5, questions: 9, time: 55_000 },
+  { errors: 1, skips: 1, number: 6, questions: 10, time: 60_000 },
+  { errors: 1, skips: 0, number: 7, questions: 7, time: 45_000 },
 ] as const;
 
 export const longGameLevels: Level[] = [
@@ -44,3 +44,5 @@ export const scoreBonusRatio = {
   skip: 4,
   time: 1 / 1000,
 } as const;
+
+export const SCORE_WON_RATIO = 1.1;
