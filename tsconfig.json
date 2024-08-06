@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "es6",
         "module": "commonjs",
-        "outDir": "./build",
+        "outDir": "./", // !!! Билдит прям в корень. Сделано так для тупого timeWeb, потому что он может запускать только из корня !!!
         "rootDir": "./src",
         "sourceMap": true,
         "esModuleInterop": true
