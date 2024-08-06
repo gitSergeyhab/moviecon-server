@@ -2,10 +2,6 @@ import { NextFunction, Request, Response } from "express";
 import { TestService } from "../services/externalDbServices/testService";
 import { Category } from "../types/test";
 
-interface TestData {
-  id: string;
-}
-
 class TestController {
   async getTest(req: Request, res: Response, next: NextFunction) {
     try {

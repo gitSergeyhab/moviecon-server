@@ -1,5 +1,3 @@
-import { Document } from "mongoose";
-
 export type UserRole = "USER" | "ADMIN";
 
 export interface UserTokens {
@@ -29,10 +27,6 @@ export type UserWithTokens = UserInfo & { tokens: UserTokens };
 export interface FullUserInfo extends UserWithTokens {
   password: string;
 }
-
-export type UserFromDB = FullUserInfo &
-  Document<unknown, any, any> &
-  Required<{ _id: unknown }>;
 
 export interface UserDTO {
   id: string;

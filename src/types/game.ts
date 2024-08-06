@@ -1,5 +1,3 @@
-import { Category } from "./test";
-
 export interface Level {
   number: number;
   time: number; // ms

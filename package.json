@@ -8,7 +8,8 @@
     "start:inspect": "node --inspect=5858 build/index.js",
     "start:memory": "node --inspect=5858 --max-old-space-size=8192 build/index.js",
     "dev": "nodemon --watch src --exec 'ts-node src/index.ts'",
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
@@ -28,6 +29,8 @@
     "winston": "^3.13.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.8.0",
     "@types/bcryptjs": "^2.4.6",
     "@types/body-parser": "^1.19.5",
     "@types/cors": "^2.8.17",
@@ -37,8 +40,14 @@
     "@types/jsonwebtoken": "^9.0.6",
     "@types/morgan": "^1.9.9",
     "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/parser": "^8.0.1",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1"
   },
   "nodemonConfig": {
     "ignore": [
