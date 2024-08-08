@@ -26,6 +26,7 @@ export default [
     },
     rules: {
         '@typescript-eslint/no-unused-vars': ['error', { 'argsIgnorePattern': '^_' }],
+        "@typescript-eslint/ban-ts-comment": ["error", {"ts-ignore": "allow-with-description"}]
     },
   },
   {
