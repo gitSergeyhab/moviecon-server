@@ -16,6 +16,6 @@ export const getUserWithTokens = (
   user: UserTypeWithId
 ): UserDTO & { tokens: UserTokens } => {
   const access = getToken(user._id, user.role, "ACCESS");
-  const refresh = getToken(user.email, user.role, "REFRESH");
+  const refresh = getToken(user._id, user.role, "REFRESH");
   return { ...toUserDTO(user), tokens: { access, refresh } };
 };

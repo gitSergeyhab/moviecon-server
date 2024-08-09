@@ -5,6 +5,7 @@ import { UserService } from "../services/externalDbServices/userService";
 import { getUserWithTokens } from "../lib/utils/user";
 import { Crypt } from "../lib/utils/crypt";
 import { AppRequest } from "../types/api";
+import { getNewTokens, getRefreshUserData } from "../lib/tokens/tokens";
 
 class AuthController {
   async registration(req: Request, res: Response, next: NextFunction) {
@@ -86,6 +87,21 @@ class AuthController {
       const user = await UserService.findById(userId);
       const response = getUserWithTokens(user);
       res.status(200).json(response);
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  async getRefreshTokens(req: AppRequest, res: Response, next: NextFunction) {
+    try {
+      const { refresh } = req.body;
+      const decoded = getRefreshUserData(refresh);
+
+      if (!decoded) {
+        throw new HttpError(401, `Ошибка авторизации: refreshToken=${refresh}`);
+      }
+      const newTokens = getNewTokens(decoded.id, decoded.role);
+      res.status(200).json(newTokens);
     } catch (err) {
       next(err);
     }

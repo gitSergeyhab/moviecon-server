@@ -16,7 +16,7 @@ export const authenticate = (
 
     jwt.verify(token, ENV.SECRET_KEY, (err, user) => {
       if (err) {
-        return res.sendStatus(403);
+        return res.sendStatus(401);
       }
       req.user = user as { id: string; role: UserRole };
       next();

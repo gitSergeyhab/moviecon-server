@@ -16,5 +16,6 @@ authRouter.post(
 );
 
 authRouter.post("/login/", validate(loginSchema), authController.login);
+authRouter.post("/refresh-tokens/", authController.getRefreshTokens);
 
 export { authRouter };
