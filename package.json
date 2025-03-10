@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node  build/index.js",
     "start:inspect": "node --inspect=5858 build/index.js",
     "start:memory": "node --inspect=5858 --max-old-space-size=8192 build/index.js",
     "dev": "nodemon --watch src --exec 'ts-node src/index.ts'",
